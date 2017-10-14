@@ -12,15 +12,14 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(num) {
-  var quote = "I love the Beatles"
+  var quote = "I love the Beatles!"
   var arr = []
   if (num == 7) {
     for (var i = 0; i < 8; i++) {
       arr.push(quote)
     }
-    return arr;
   } else if (num == 17) {
-    arr.push(`${quote}!`)
-    return arr;
+    arr.push(quote)
   }
+  return arr;
 }
