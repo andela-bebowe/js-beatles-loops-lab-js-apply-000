@@ -19,7 +19,7 @@ function iLoveTheBeatles(num) {
       arr.push(quote)
     }
   } else if (num == 17) {
-    arr.push(quote)
+    arr.push(`${quote}!`)
   }
   return arr;
 }
